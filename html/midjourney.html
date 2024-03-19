@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Nexus</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .box{
+    margin: 0 auto;
+}
+
+.s1 ,.s2,.s3{
+    display: none;
+}
+.imgh{
+    visibility: hidden;
+}
+
+.img2{
+    background: url("../IMG/midjourney2.webp")no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.img3{
+    background: url("../IMG/emo2.jpeg")no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+.img4{
+    background: url("../IMG/psvr2.jpg")no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+@media(min-width:800px){
+    .box{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-content: center;
+        margin: auto;
+    }
+    .p1,.p2{
+        display: none;
+    }
+    .s1,.s2{
+        display: block;
+    }
+    .img1{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
+
+@media(min-width:1280px){
+    .box{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-content: center;
+        margin: 0 50px 0 0;
+        margin-left: auto;
+        margin-right: auto;
+        gap:10px;
+    }
+    .p1,.s3{
+        display: block;
+    }
+    .s1,.p3{
+        display: none;
+    }
+    .img1{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+.con{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    border: 1px solid red;
+    align-content: center;
+}
+a{
+    color: white;
+}
+.morenews{
+    max-width: 300px;
+    max-height: 500px;
+}
+@media(min-width:800px){
+    .more{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+}
+
+    </style>
+  
+  
+  
+  
+  
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body style="overflow-x: hidden;">
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+    <div class="container_logo" style="display: flex;">
+      <img src="logo.png" style="height: 50px;width: 50px;">
+      <div class="logo"><a href="#">NEXUS</a></div>
+    </div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">NEXUS</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="home.html">HOME</a></li>
+          <li>
+            <a href="#">SERVICES</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="tata.html">LATEST TECH NEWS</a></li>
+              <li><a href="gadgets.html">GADGET REVIEWS</a></li>
+              <li><a href="meet.html">TECH MEETS AND EVENTS</a></li>
+              
+            </ul>
+          </li>
+          <li>
+            <a href="#">SECTORS</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="agricultureMeet.html">AGRICULTURE</a></li>
+              <li><a href="education.html">EDUCATIONAL</a></li>
+              <li><a href="construction.html">CONSTRUCTION</a></li>
+              <li><a href="health.html">HEALTH</a></li>
+            </ul>
+          </li>
+          <li><a href="contactUs.html">ABOUT US</a></li>
+          <li><a href="loginPage.html">LOGIN</a></li>
+        </ul>
+      </div>
+      <div class="search-box">
+        <i class='bx bx-search'></i>
+        
+        <div class="input-box">
+          <input type="text" placeholder="Search...">
+          <i class='bx bx-microphone' id='vsi' onclick="voiceinput()"></i>
+          <div class="Ellipse1" style="width: 35px; height: 35px;margin-top: 10px;margin-left: 304px;    background: #E41D1D;border-radius: 50%;display: none; animation: soundWave 1s infinite;
+          opacity: 0;"></div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <div class="container" id="top">
+      <h1>LATEST TECH NEWS:</h1>
+      <h2>Midjourney: The gothic AI image generator challenging the art industry</h2>
+      <strong>
+          <p style="color:#059669">Wednesday, july 19, 2023</p>
+      </strong>
+  </div>
+  <div class="container box" >
+      <div class="container img1">
+          <img src="midjourney1.jpeg" style="width:100%;">
+      </div>
+      <div class="container">
+          <p>Artificial intelligence has fundamentally changed the world of art in the last year. Thanks to a host of AI art programs, anyone is able to create whatever image their imagination can produce with just a simple worded prompt.</p>
+           <p class="p1">While a sea of these generators have appeared, one has quickly risen to the top known as Midjourney. Gothic in nature, this program offers a level of realism that is yet to be competed with.</p>
+      </div>
+  </div>          
+  <div class="container">   
+      <p class="s1">While a sea of these generators have appeared, one has quickly risen to the top known as Midjourney. Gothic in nature, this program offers a level of realism that is yet to be competed with.</p>
+    <p>While it isn't without its controversies, Midjourney has drastically pushed the limits of AI art generators, releasing frequent updates with new skills, techniques and advancements in its training database.So what is Midjourney? How do you use it? And is this standing out as the future of the art world?</p>
+      <p>Midjourney is one of the many AI image generators that have emerged recently. Unlike Dall-E 2 or some of its other competitors, Midjourney offers a more dream-like arty style to your requests.</p>
+<p>
+It will likely appeal to those working within science-fiction literature or artwork that requires a more gothic feel. Where other AI generators lean more towards photos, Midjourney is more of a painting tool.</p>
+  </div>
+    <div class="container img2">
+        <img src="midjourney2.webp" style="width:100%;" class="imgh">
+    </div>
+    <div class="container">
+        <p>As the brand’s website states, it aims to ‘explore new mediums of thought and expanding the imaginative powers of the human species’.</p>
+      <p>Midjourney asks you to input a worded prompt for an image, for example ‘a fox wearing a top hat in the style of a Roald Dahl illustration’ and in a few seconds, you’ll be returned multiple attempts at this image.</p>
+      <p>
+          Things can go wrong with your image and the model isn’t perfect. For example, it can struggle to generate hands or other complicated objects, and backgrounds can often be blurred or confused, but these are problems you’ll find with any of these models.
+      </p>
+      
+    <div class="container"><h3>More Related News</h3></div>
+          <div class="container more">
+         <a href="tata.html" ><div class="con morenews" >
+              <div class="con">
+                  <img src="tata1.jpeg">
+              </div>
+              <div class="con">
+                  <h3>TATA's New EV Plant in UK</h3>
+                  <p>£4 bn electric vehicle battery plant </p>
+              </div></div></a>
+              <a href="threads.html" ><div class="con morenews" >
+              <div class="con">
+                  <img src="threads2.jpeg">
+              </div>
+              <div class="con">
+                  <h3>Threads isn't a social media app: </h3>
+                  <p>It's a shopping mall designed to sell you useless crap: </p>
+              </div></div></a>
+            <a href="pixel.html" ><div class="con morenews" >
+              <div class="con">
+                  <img src="pixel1.jpeg">
+              </div>
+              <div class="con">
+                  <h3>Google Pixel 8 & 8 Pro: News, leaks</h3>
+                  <p> After the Pixel 7 impressed us, what's next for our favorite Android phones?</p>
+              </div></div></a>
+      
+          </div>
+             
+  
+ <script src="nav.js"></script>
+ </body>
+</html>
+

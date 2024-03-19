@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styleMeet.css" />
+    <link rel="stylesheet" href="nav.css" />
+   
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+<body style="overflow-x: hidden;">
+ <nav>
+   <div class="navbar">
+     <i class='bx bx-menu'></i>
+   <div class="container_logo" style="display: flex;">
+     <img src="logo.png" style="height: 50px;width: 50px;">
+     <div class="logo"><a href="#">NEXUS</a></div>
+   </div>
+     <div class="nav-links">
+       <div class="sidebar-logo">
+         <span class="logo-name">NEXUS</span>
+         <i class='bx bx-x' ></i>
+       </div>
+       <ul class="links">
+         <li><a href="home.html">HOME</a></li>
+         <li>
+           <a href="#">SERVICES</a>
+           <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+           <ul class="htmlCss-sub-menu sub-menu">
+             <li><a href="tata.html">LATEST TECH NEWS</a></li>
+             <li><a href="gadgets.html">GADGET REVIEWS</a></li>
+             <li><a href="meet.html">TECH MEETS AND EVENTS</a></li>
+             
+           </ul>
+         </li>
+         <li>
+           <a href="#">SECTORS</a>
+           <i class='bx bxs-chevron-down js-arrow arrow '></i>
+           <ul class="js-sub-menu sub-menu">
+             <li><a href="agricultureMeet.html">AGRICULTURE</a></li>
+             <li><a href="education.html">EDUCATIONAL</a></li>
+             <li><a href="construction.html">CONSTRUCTION</a></li>
+             <li><a href="health.html">HEALTH</a></li>
+           </ul>
+         </li>
+         <li><a href="contactUs.html">ABOUT US</a></li>
+         <li><a href="loginPage.html">LOGIN</a></li>
+       </ul>
+     </div>
+     <div class="search-box">
+       <i class='bx bx-search'></i>
+       
+       <div class="input-box">
+         <input type="text" placeholder="Search...">
+         <i class='bx bx-microphone' id='vsi' onclick="voiceinput()"></i>
+         <div class="Ellipse1" style="width: 35px; height: 35px;margin-top: 10px;margin-left: 304px;    background: #E41D1D;border-radius: 50%;display: none; animation: soundWave 1s infinite;
+         opacity: 0;"></div>
+       </div>
+     </div>
+   </div>
+ </nav>
+  <div style="margin-top: 70px;"></div>
+    <img src="backgroundImage2.jpg" alt="..." class="immMeet" />
+    <section class="hiddenMeet">
+      <div class="containerMeet">
+        <form id="login-formMeet">
+          <div class="headMeet">Login</div>
+          <div class="userMeet">
+            <label for="usernameMeet">Username:</label>
+            <input type="text" id="usernameMeet" placeholder="Name" class="inpMeet" required />
+          </div>
+          <div class="passMeet">
+            <label for="passwordMeet">Password:</label>
+            <input type="password" id="passwordMeet" placeholder="Password" class="inp" required/>
+          </div>
+          <div class="subMeet" >
+            <button type="submit" class="butMeet">Login</button>
+          </div>
+        </form>
+        <p id="messageMeet"></p>
+      </div>
+    </section>
+  
+    <script src="script (1).js"></script>
+    <script src="nav.js"></script>
+
+  </body>
+</html>

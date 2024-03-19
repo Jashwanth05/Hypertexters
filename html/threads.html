@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Nexus</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .box{
+    margin: 0 auto;
+}
+
+.s1 ,.s2,.s3{
+    display: none;
+}
+.imgh{
+    visibility: hidden;
+}
+
+.img2{
+    background: url("threads2.jpeg")no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.img3{
+    background: url("../IMG/emo2.jpeg")no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+.img4{
+    background: url("../IMG/psvr2.jpg")no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+@media(min-width:800px){
+    .box{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-content: center;
+        margin: auto;
+    }
+    .p1,.p2{
+        display: none;
+    }
+    .s1,.s2{
+        display: block;
+    }
+    .img1{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
+
+@media(min-width:1280px){
+    .box{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-content: center;
+        margin: 0 50px 0 0;
+        margin-left: auto;
+        margin-right: auto;
+        gap:10px;
+    }
+    .p1,.s3{
+        display: block;
+    }
+    .s1,.p3{
+        display: none;
+    }
+    .img1{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+.con{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    border: 1px solid red;
+    align-content: center;
+}
+a{
+    color: white;
+}
+.morenews{
+    max-width: 300px;
+    max-height: 500px;
+}
+@media(min-width:800px){
+    .more{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+}
+
+    </style>
+    
+    
+    
+    
+    
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+<body style="overflow-x: hidden;">
+ <nav>
+   <div class="navbar">
+     <i class='bx bx-menu'></i>
+   <div class="container_logo" style="display: flex;">
+     <img src="logo.png" style="height: 50px;width: 50px;">
+     <div class="logo"><a href="#">NEXUS</a></div>
+   </div>
+     <div class="nav-links">
+       <div class="sidebar-logo">
+         <span class="logo-name">NEXUS</span>
+         <i class='bx bx-x' ></i>
+       </div>
+       <ul class="links">
+         <li><a href="home.html">HOME</a></li>
+         <li>
+           <a href="#">SERVICES</a>
+           <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+           <ul class="htmlCss-sub-menu sub-menu">
+             <li><a href="tata.html">LATEST TECH NEWS</a></li>
+             <li><a href="gadgets.html">GADGET REVIEWS</a></li>
+             <li><a href="meet.html">TECH MEETS AND EVENTS</a></li>
+             
+           </ul>
+         </li>
+         <li>
+           <a href="#">SECTORS</a>
+           <i class='bx bxs-chevron-down js-arrow arrow '></i>
+           <ul class="js-sub-menu sub-menu">
+             <li><a href="agricultureMeet.html">AGRICULTURE</a></li>
+             <li><a href="education.html">EDUCATIONAL</a></li>
+             <li><a href="construction.html">CONSTRUCTION</a></li>
+             <li><a href="health.html">HEALTH</a></li>
+           </ul>
+         </li>
+         <li><a href="contactUs.html">ABOUT US</a></li>
+         <li><a href="loginPage.html">LOGIN</a></li>
+       </ul>
+     </div>
+     <div class="search-box">
+       <i class='bx bx-search'></i>
+       
+       <div class="input-box">
+         <input type="text" placeholder="Search...">
+         <i class='bx bx-microphone' id='vsi' onclick="voiceinput()"></i>
+         <div class="Ellipse1" style="width: 35px; height: 35px;margin-top: 10px;margin-left: 304px;    background: #E41D1D;border-radius: 50%;display: none; animation: soundWave 1s infinite;
+         opacity: 0;"></div>
+       </div>
+     </div>
+   </div>
+ </nav>
+  
+  <div class="container" id="top">
+      <h1>LATEST TECH NEWS:</h1>
+      <h2>Threads isn't a social media app. It's a shopping mall designed to sell you useless crap: </h2>
+      <strong>
+          <p style="color:#059669">Wednesday, july 19, 2023</p>
+      </strong>
+  </div>
+  <div class="container box" >
+      <div class="container img1">
+          <img src="threads1.jpeg">
+      </div>
+      <div class="container">
+          <p>Threads, the newest social-media app from Meta, rocketed past 100 million users less than a week after it went live. The explosive start from Mark Zuckerberg's latest brainchild made it the fastest-growing app in history and took a significant bite out of Twitter's traffic, according to the tracking company Cloudflare.</p>
+           <p class="p1">The app has since been hailed as the Twitter replacement people have been clamoring for since Elon Musk's takeover — and bungling — of the platform.</p>
+      </div>
+  </div>          
+  <div class="container">   
+      <p class="s1">The app has since been hailed as the Twitter replacement people have been clamoring for since Elon Musk's takeover — and bungling — of the platform.</p>
+    <p>While Threads does look eerily similar to Twitter, there are critical differences. The search experience is limited to finding accounts, with no ability to find people's posts or search by topic. There is no trending page, making it impossible to see what issues are dominating the discourse.</p>
+      <p>The notifications are also a mess, there are no direct messages, and there's no option to see posts from only people you follow. Adam Mosseri, Instagram's head, says many of those features are in the works, but even as the app evolves, it's becoming clear that it will never truly replace Twitter. </p>
+  </div>
+    <div class="container img2">
+        <img src="threads2.jpeg" style="width:100%;" class="imgh">
+    </div>
+    <div class="container">
+        <p>That's because Meta isn't trying to fill the shoes of its competitor. While Twitter became popular as a place to stay informed and get access to critical information, Meta wants Threads to be a hangout space for lifestyle brands and influencers. Instead of a newsstand, Meta is building a new wing of its multiplatform mall. That might sound great to advertisers, but it's hard to imagine people will want to be confined to the vapid topics that do best on Instagram.</p>
+      <p>platform, and the company was pretty bad at making money. But it managed to leverage its unique experience in such a way that it became a major part of news and current affairs throughout the 2010s. Politicians, journalists, and other newsmakers flocked to the platform, providing unprecedented insight into their influential roles, while giving them a more direct connection to regular people, and vice versa. </p>
+      <p>
+          Some high-profile users, such as President Donald Trump, became almost unavoidable — his tweets shaped news cycles and public policy. And when big events happened around the world or locally, Twitter was the first place to turn to for real-time updates from reporters, public agencies, and average people documenting events for themselves.
+      </p>
+      
+    <div class="container"><h3>More Related News</h3></div>
+          <div class="container more">
+         <a href="tata.html" ><div class="con morenews" >
+              <div class="con">
+                  <img src="tata1.jpeg">
+              </div>
+              <div class="con">
+                  <h3>TATA's New EV Plant in UK</h3>
+                  <p>£4 bn electric vehicle battery plant </p>
+              </div></div></a>
+              <a href="midjourney.html" ><div class="con morenews" >
+              <div class="con">
+                  <img src="midjourney1.jpeg">
+              </div>
+              <div class="con">
+                  <h3>Midjourney: The gothic AI image generator </h3>
+                  <p> Its challenging the art industry by launching license less ai art</p>
+              </div></div></a>
+              <a href="pixel.html" ><div class="con morenews" >
+              <div class="con">
+                  <img src="pixel1.jpeg">
+              </div>
+              <div class="con">
+                  <h3>Google Pixel 8 & 8 Pro: News, leaks</h3>
+                  <p> After the Pixel 7 impressed us, what's next for our favorite Android phones?</p>
+              </div></div></a>
+              
+      
+          </div>
+             
+  
+ <script src="nav.js""></script>
+ </body>
+</html>
+
