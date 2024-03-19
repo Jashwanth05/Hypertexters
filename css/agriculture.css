@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .img {
+    height: 100vh;
+    width: 100%;
+    z-index: -999;
+  }
+  .text {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    text-shadow: 2px 2px 8px #ff0000;
+    margin-left: 100px;
+  }
+  #img1 {
+    position: absolute;
+  }
+  .text1 {
+    font-size: 100px;
+    margin-top: 70px;
+    font-style: italic;
+    margin-left: 100px;
+  }
+  .text2 {
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 200px;
+  }
+  .text3 {
+    font-size: 60px;
+    margin-left: 300px;
+    margin-top: 15px;
+  }
+  .text4 {
+    font-size: 100px;
+    margin-left: 400px;
+    margin-top: 0px;
+  }
+  .hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 4s;
+  }
+  .show {
+    filter: blur(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .hidden2 {
+    transition-delay: 1s;
+  }
+  .hidden3 {
+    transition-delay: 2s;
+  }
+  .hidden4 {
+    transition-delay: 3s;
+  }
+  #img2 {
+    position: absolute;
+  }
+  .t1 {
+    color: black;
+    font-size: 50px;
+    position: relative;
+    top: 250px;
+    left: 500px;
+    display: inline-block;
+    text-shadow: 2px 2px 8px #ff0000;
+  }
+  .t2 {
+    font-size: 50px;
+    position: relative;
+    display: inline-block;
+    top: 320px;
+    left: 40px;
+    text-shadow: 2px 2px 8px #ff0000;
+  }
+  .e {
+    background-color: transparent;
+    height: 50px;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 8px 8px 8px #000000;
+    position: relative;
+    border-radius: 50px;
+  }
+  .e a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    height: inherit;
+    width: inherit;
+    font-size: 15px;
+  }
+  .e1 {
+    left: 280px;
+    top: 10px;
+  }
+  .e1 a {
+    padding: 12px 0px 0px 83px;
+  }
+  .e2 {
+    left: 890px;
+    bottom: 50px;
+  }
+  .e2 a {
+    padding: 12px 0px 0px 50px;
+  }
+  .e3 {
+    top: 99px;
+    left: 100px;
+  }
+  .e3 a {
+    padding: 12px 0px 0px 83px;
+  }
+  .e4 {
+    left: 1100px;
+    top: 40px;
+  }
+  .e4 a {
+    padding: 12px 0px 0px 83px;
+  }
+  .e5 {
+    top: 240px;
+    left: 290px;
+  }
+  .e5 a {
+    padding: 12px 0px 0px 83px;
+  }
+  .e6 {
+    left: 900px;
+    top: 180px;
+  }
+  .e6 a {
+    padding: 12px 0px 0px 21px;
+  }
+  .e :hover {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 50px;
+    box-shadow: 15px 15px 8px #000000;
+  }
+  .hidden11 {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 3s;
+  }
+  .show1 {
+    filter: blur(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .h1 {
+    transition-delay: 1s;
+  }
+  .h2 {
+    transition-delay: 2s;
+  }
+  .h3 {
+    transition-delay: 3s;
+  }
+  .h4 {
+    transition-delay: 4s;
+  }
+  .h5 {
+    transition-delay: 5s;
+  }
+  .h6 {
+    transition-delay: 6s;
+  }
+  .cont1{
+    height: 100vh;
+  }
+  .cont2{
+    height: 100vh;
+  }
+  #img3{
+    position:absolute;
+  }
+  .t22{
+    left: 450px;
+  }
+  .t11{
+    left: 650px;
+  }
+  .atitle1{
+    display: inline-block;
+    margin-left: 550px;
+    margin-top: 70px;
+    text-shadow: 2px 2px 8px #ff0000;
+    font-size: 50px;
+  }
+  .ag11{
+    color: darkturquoise;
+    margin-top: 10px;
+    text-shadow: 10px 10px 8px black;
+    font-size: 30px;
+  }
+  .ag12{
+    color: darkturquoise;
+    text-shadow: 10px 10px 8px black;
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .ag13{
+    color: darkturquoise;
+    text-shadow: 10px 10px 8px black;
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .ag14{
+    color: darkturquoise;
+    text-shadow: 10px 10px 8px black;
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .ag15{
+    color: darkturquoise;
+    text-shadow: 10px 10px 8px black;
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .ag16{
+    color: darkturquoise;
+    margin-top: 10px;
+    text-shadow: 10px 10px 8px black;
+    font-size: 30px;
+  }
+  .atitle2{
+    display: inline-block;
+    margin-left: 365px;
+    text-shadow: 2px 2px 8px #ff0000;
+    margin-top: 10px;
+    font-size: 40px;
+    text-transform: capitalize;
+  }
+  .ag111{
+    margin-top: 30px;
+    font-size: 30px;
+    width: 1500px;
+  }
+  .crop{
+    margin-left: 440px;
+  }
+  .disease{
+    margin-left: 525px;
+  }
+  .int{
+    margin-left: 520px;
+  }
+  .pre{
+    margin-left: 520px;
+  }
+  .crop1{
+    margin-left: 320px;
+  }
