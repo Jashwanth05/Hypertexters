@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Nexus</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .box{
+    margin: 0 auto;
+}
+
+.s1 ,.s2,.s3{
+    display: none;
+}
+.imgh{
+    visibility: hidden;
+}
+
+.img2{
+    background: url("../IMG/ces2.jpg")no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+.img3{
+    background: url("../IMG/tv.jpg")no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+.img4{
+    background: url("../IMG/psvr2.jpg")no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+@media(min-width:800px){
+    .box{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-content: center;
+        margin: auto;
+    }
+    .p1,.p2{
+        display: none;
+    }
+    .s1,.s2{
+        display: block;
+    }
+    .img1{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
+
+@media(min-width:1280px){
+    .box{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-content: center;
+        margin: 0 50px 0 0;
+        margin-left: auto;
+        margin-right: auto;
+        gap:10px;
+    }
+    .p1,.s3{
+        display: block;
+    }
+    .s1,.p3{
+        display: none;
+    }
+    .img1{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
+    </style>
+   
+   
+   
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body style="overflow-x: hidden;">
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+    <div class="container_logo" style="display: flex;">
+      <img src="logo.png" style="height: 50px;width: 50px;">
+      <div class="logo"><a href="#">NEXUS</a></div>
+    </div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">NEXUS</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="home.html">HOME</a></li>
+          <li>
+            <a href="#">SERVICES</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="tata.html">LATEST TECH NEWS</a></li>
+              <li><a href="gadgets.html">GADGET REVIEWS</a></li>
+              <li><a href="meet.html">TECH MEETS AND EVENTS</a></li>
+              
+            </ul>
+          </li>
+          <li>
+            <a href="#">SECTORS</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="agricultureMeet.html">AGRICULTURE</a></li>
+              <li><a href="education.html">EDUCATIONAL</a></li>
+              <li><a href="construction.html">CONSTRUCTION</a></li>
+              <li><a href="health.html">HEALTH</a></li>
+            </ul>
+          </li>
+          <li><a href="contactUs.html">ABOUT US</a></li>
+          <li><a href="loginPage.html">LOGIN</a></li>
+        </ul>
+      </div>
+      <div class="search-box">
+        <i class='bx bx-search'></i>
+        
+        <div class="input-box">
+          <input type="text" placeholder="Search...">
+          <i class='bx bx-microphone' id='vsi' onclick="voiceinput()"></i>
+          <div class="Ellipse1" style="width: 35px; height: 35px;margin-top: 10px;margin-left: 304px;    background: #E41D1D;border-radius: 50%;display: none; animation: soundWave 1s infinite;
+          opacity: 0;"></div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <div class="container" id="top" >
+      <h1>CES INTERNATIONAL 2023</h1>
+      <p><strong>Consumer Electronics Show</strong> is the biggest tech trade show of the year, kicking off the first week of January    | <a href="https://www.ces.tech/">CES 2023</a> </p>
+  </div>
+  <div class="container box" >
+      <div class="container ">
+          <img src="ces1.jpeg" class="img1"></img>
+      </div>
+      <div class="container">
+         <p>The news will start coming in before then: Samsung, LG, Sony, and quite a few others will kick things off with a day of press conferences on January 4th.The Verge will be covering CES on the ground in Las Vegas. You can follow along here for all the latest </p><p class="p1">news and plenty of hands-on video coverage from the show.After a couple of quieter years —<strong> CES 2021 was online-only due to the pandemic,</strong> and CES 2022 saw just a quarter of the show’s typical attendance due to omicron. </p>
+      
+  </div></div>
+  <div class="container" style="margin-top:25px;">
+       <p class="s1">news and plenty of hands-on video coverage from the show.After a couple of quieter years —<strong> CES 2021 was online-only due to the pandemic,</strong> and CES 2022 saw just a quarter of the show’s typical attendance due to omicron. </p>
+        <p>
+            the Consumer Technology Association, which organizes CES, expects this year’s show to be more of a return to form, with busier halls and a lot more news to go around.
+        </p>
+        <p>AR and VR seem like they've been on the verge of revolutionizing mainstream tech for years now. While we can't tell just yet if this year's CES will be the tipping point that sends these technologies into everyone's living rooms, there were tons of new releases and debuts that could go a long way toward making augmented and virtual reality <a href="https://en.m.wikipedia.org/wiki/Augmented_reality#:~:text=Augmented%20reality%20(AR)%20is%20an,%2C%20haptic%2C%20somatosensory%20and%20olfactory.">"The Next big thing." </a></p>
+    </div>
+    <div class="container img2">
+        <img src="ces2.jpg" class="imgh" style="width:100%;">
+    </div>
+  <div class="container">
+      <p>It should shock no one that HTC is leading this piece. The company's long-teased VIVE XR Elite reveal showed off a headset with some intriguing, never-before-seen features. From a modular design that lets you wear it either like eyeglasses or in a traditional VR headset fit, to its use of adjustable lenses that can help actual eyeglass wearers see more clearly, the VIVE XR Elite brought several upgrades to AR and VR that just felt overdue at this point. </p>
+    <p><strong>The headset's $1,100ish price tag </strong>also places it well below its obvious competitor, Meta's enterprise-focused Meta Quest Pro. The price drop does come with the loss of eye and face tracking .but it also puts it closer to the price range consumers were already willing to accept for past models, including HTC's original VIVE.</p>  </div>
+    <div class="container box" style="flex-direction:row">
+         <div class="container">
+             <img src=ces3.jpg" style="width:100%;margin:auto;">
+         </div>
+         <div class="container"><p><strong>The headset's $1,100ish price tag </strong>also places it well below its obvious competitor, Meta's enterprise-focused Meta Quest Pro. The price drop does come with the loss of eye and face tracking .but it also puts it closer to the price range consumers were already willing to accept for past models, including HTC's original VIVE.</p>
+      <p class="p1">Our time at CES 2023 might be over, but it’s still worth highlighting some standouts at the show. One of those that’s gotten quite a bit of attention is from an upstart company called Displace.</p>
+      </div></div>
+      <div class="container">
+          <p class="s1">Our time at CES 2023 might be over, but it’s still worth highlighting some standouts at the show. One of those that’s gotten quite a bit of attention is from an upstart company called Displace.</p>
+<p>Are we seeing an imperfect sneak peek of the future, or is this a solution in search of a problem? Is the Displace another classic example of CES vaporware? Will it actually ever ship? All I know for now is that it seems to make good on the everything-wireless concept — with one potentially pricey gamble</p>
+<p> LG’s brand-new Signature OLED M eliminates every wire except for the power cord, but Displace is trying to nix that one, too. In Las Vegas, the company demonstrated a <strong>completely wireless 55-inch 4K OLED TV </strong>that runs off four hot-swappable batteries. This is a dream that has existed since the earliest days of The Verge.</p>
+  </div>
+      <div class="container img3" id="right">
+          <img src="tv.jpg" class="imgh"></img>
+      </div>
+      <div class="container">
+          
+          <p>A single Displace TV costs $3,000. For that money, you get the display — from what I could tell, it’s a typical<strong>LG Display 4K OLED panel</strong> — four batteries (with a charging station), and a base hub that’s responsible for wirelessly transmitting all of your entertainment to the 55-inch screen. (The base station wasn’t being shown at Displace’s CES booth, but reps said it will use Wi-Fi 6E for a robust connection when communicating with the TV.)  |<a href="https://www.sony.co.in/bravia?cid=sem-in-26032&gclid=Cj0KCQjw_O2lBhCFARIsAB0E8B_NmOOz8853C9PDN2KmdqXwgT48MZgVtIslsBK8ufd4SB78LfTZIXUaAko2EALw_wcB"> LG TV</a></p>
+          <p>    
+              According to the company, you’ll be able to link four TVs together for a 110-inch 8K picture. A four-TV bundle is expected to run $9,000, so you’d be getting the last one for free — and putting a whole hell of a lot of trust in Displace’s vision without much by the way of details. This can also be done, supposedly, with 16 Displace units for an enormous 220-inch 16K image. You’d have bezels cutting through the picture, so I’m not sure who this would appeal to beyond business and trade show clients. But man, just think of having to charge all of those batteries on a regular basis.
+          </p>
+      </div>
+  
+  
+ <script src="nav.js"></script>
+ <script src="new.js"></script 
+ </body>
+</html>

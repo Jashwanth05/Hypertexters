@@ -1,0 +1,148 @@
+.img1 {
+    height: 100vh;
+    width: 100%;
+    z-index: -999;
+    position: absolute;
+  }
+  .title {
+    height: 100vh;
+    width: 100%;
+    text-shadow: 5px 5px 8px #ff0000;
+    color: aliceblue;
+  }
+  .title1 {
+    font-size: 50px;
+    display: inline-block;
+    margin-top: 150px;
+    margin-left: 150px;
+  }
+  .title2 {
+    font-size: 50px;
+    display: inline-block;
+    margin-left: 250px;
+    margin-top: 20px;
+  }
+  .type {
+    height: 95vh;
+    width: 100%;
+    color: aliceblue;
+  }
+  .type0 {
+    text-transform: capitalize;
+    font-size: 50px;
+    text-shadow: 5px 5px 8px #ff0000;
+    margin: 40px 0 0 50px;
+  }
+  .type1 {
+    font-size: 35px;
+    text-shadow: 5px 5px 8px #ff0000;
+    margin: 20px 0 0 150px;
+  }
+  .type2 {
+    font-size: 35px;
+    text-shadow: 5px 5px 8px #ff0000;
+    margin: 20px 0 0 200px;
+  }
+  .type3 {
+    font-size: 35px;
+    text-shadow: 5px 5px 8px #ff0000;
+    margin: 20px 0 0 250px;
+  }
+  .type4 {
+    font-size: 35px;
+    text-shadow: 5px 5px 8px #ff0000;
+    margin: 20px 0 0 300px;
+  }
+  .type5 {
+    font-size: 35px;
+    text-shadow: 5px 5px 8px #ff0000;
+    margin: 20px 0 0 350px;
+  }
+  .type6 {
+    font-size: 35px;
+    text-shadow: 5px 5px 8px #ff0000;
+    margin: 20px 0 0 400px;
+  }
+  .adv {
+    height: 95vh;
+    width: 100%;
+    text-shadow: 5px 5px 8px #ff0000;
+    color: aliceblue;
+  }
+  .adv0 {
+    text-transform: capitalize;
+    font-size: 40px;
+    margin: 40px 0 0 150px;
+  }
+  .adv1 {
+    font-size: 30px;
+    margin: 10px 0 0 90px;
+  }
+  .adv2 {
+    margin: 10px 0 0 1050px;
+    font-size: 30px;
+  }
+  .adv3 {
+    font-size: 30px;
+    margin: 10px 0 0 90px;
+  }
+  .adv4 {
+    margin: 10px 0 0 1050px;
+    font-size: 30px;
+  }
+  .adv5 {
+    margin: 10px 0 0 90px;
+    font-size: 30px;
+  }
+  .adv6 {
+    margin: 10px 0 0 1050px;
+    font-size: 30px;
+  }
+  .adv7 {
+    margin: 10px 0 0 90px;
+    font-size: 30px;
+  }
+  .adv8 {
+    margin: 10px 0 0 1050px;
+    font-size: 30px;
+  }
+  .img {
+    height: 300px;
+    width: 550px;
+    position: absolute;
+    top: 900px;
+    left: 950px;
+  }
+  .extra1 {
+    height: 250px;
+    width: 500px;
+    position: absolute;
+    top: 1950px;
+    left: 450px;
+    
+  }
+  .extra2 {
+    top: 1600px;
+    left: 550px;
+  }
+
+  .hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 5s;
+  }
+  .show {
+    filter: blur(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .imga :hover {
+    box-shadow: 15px 15px 8px white;
+  }
+  .imga1 :hover {
+    box-shadow: 15px 15px 8px black;
+  }
+  .imga2 :hover {
+    box-shadow: 15px 15px 8px black;
+  }

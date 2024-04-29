@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact us</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="home.css">
+  
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="overflow-x: hidden;">
+<nav>
+ <div class="navbar">
+   <i class='bx bx-menu'></i>
+ <div class="container_logo" style="display: flex;">
+   <img src="logo.png" style="height: 50px;width: 50px;">
+   <div class="logo"><a href="#">NEXUS</a></div>
+ </div>
+   <div class="nav-links">
+     <div class="sidebar-logo">
+       <span class="logo-name">NEXUS</span>
+       <i class='bx bx-x' ></i>
+     </div>
+     <ul class="links">
+       <li><a href="home.html">HOME</a></li>
+       <li>
+         <a href="#">SERVICES</a>
+         <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+         <ul class="htmlCss-sub-menu sub-menu">
+           <li><a href="tata.html">LATEST TECH NEWS</a></li>
+           <li><a href="gadgets.html">GADGET REVIEWS</a></li>
+           <li><a href="meet.html">TECH MEETS AND EVENTS</a></li>
+           
+         </ul>
+       </li>
+       <li>
+         <a href="#">SECTORS</a>
+         <i class='bx bxs-chevron-down js-arrow arrow '></i>
+         <ul class="js-sub-menu sub-menu">
+           <li><a href="agricultureMeet.html">AGRICULTURE</a></li>
+           <li><a href="education.html">EDUCATIONAL</a></li>
+           <li><a href="construction.html">CONSTRUCTION</a></li>
+           <li><a href="health.html">HEALTH</a></li>
+         </ul>
+       </li>
+       <li><a href="contactUs.html">ABOUT US</a></li>
+       <li><a href="loginPage.html">LOGIN</a></li>
+     </ul>
+   </div>
+   <div class="search-box">
+     <i class='bx bx-search'></i>
+     
+     <div class="input-box">
+       <input type="text" placeholder="Search...">
+       <i class='bx bx-microphone' id='vsi' onclick="voiceinput()"></i>
+       <div class="Ellipse1" style="width: 35px; height: 35px;margin-top: 10px;margin-left: 304px;    background: #E41D1D;border-radius: 50%;display: none; animation: soundWave 1s infinite;
+       opacity: 0;"></div>
+     </div>
+   </div>
+ </div>
+</nav>
+<div style="margin-top: 70px;">
+  <img src="meetback.jpeg" alt="#" class="imm">
+ 
+  <section class="hidden">
+    <div class="container">
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Jashwanth</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">College - SVNIT</li>
+          <li class="list-group-item">Year - 2nd year</li>
+          <li class="list-group-item">Department - CSE</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">GitHub</a>
+          <a href="#" class="card-link">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Yagna</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">College - SVNIT</li>
+          <li class="list-group-item">Year - 2nd year</li>
+          <li class="list-group-item">Department - CSE</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">GitHub</a>
+          <a href="#" class="card-link">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Meet </h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">College - SVNIT</li>
+          <li class="list-group-item">Year - 2nd year</li>
+          <li class="list-group-item">Department - CSE</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Github</a>
+          <a href="#" class="card-link">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Below code is for feedback form -->
+  <section class="hidden">
+    <div class="foot">
+      <div class="card card1" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title card1-title">FeedBack Form : </h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+          <p class="card-text"><input type="text" name="name" id="n" placeholder="Your name" class="inp">
+            <input type="text" name="email" id="e" placeholder="Your email" class="inp">
+            <textarea name="message" id="" cols="18" rows="2" class="inp">Your message</textarea>
+          </p>
+          <button class="card-link card1-link">Submit</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      console.log(entry)
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+      } else {
+        entry.target.classList.remove('show');
+      }
+    });
+  });
+
+  const hiddenElements = document.querySelectorAll('.hidden');
+  hiddenElements.forEach((el) => observer.observe(el));
+</script>
+<script src="nav.js"></script>
+</html>

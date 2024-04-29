@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Nexus</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .box{
+    margin: 0 auto;
+}
+
+.s1 ,.s2,.s3{
+    display: none;
+}
+.imgh{
+    visibility: hidden;
+}
+
+.img2{
+    background: url("shoe2.jpeg")no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.img3{
+    background: url("emo2.jpeg")no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+.img4{
+    background: url("psvr2.jpeg")no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+@media(min-width:800px){
+    .box{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-content: center;
+        margin: auto;
+    }
+    .p1,.p2{
+        display: none;
+    }
+    .s1,.s2{
+        display: block;
+    }
+    .img1{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
+
+@media(min-width:1280px){
+    .box{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-content: center;
+        margin: 0 50px 0 0;
+        margin-left: auto;
+        margin-right: auto;
+        gap:10px;
+    }
+    .p1,.s3{
+        display: block;
+    }
+    .s1,.p3{
+        display: none;
+    }
+    .img1{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
+    </style>
+  
+  
+  
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="overflow-x: hidden;">
+<nav>
+ <div class="navbar">
+   <i class='bx bx-menu'></i>
+ <div class="container_logo" style="display: flex;">
+   <img src="logo.png" style="height: 50px;width: 50px;">
+   <div class="logo"><a href="#">NEXUS</a></div>
+ </div>
+   <div class="nav-links">
+     <div class="sidebar-logo">
+       <span class="logo-name">NEXUS</span>
+       <i class='bx bx-x' ></i>
+     </div>
+     <ul class="links">
+       <li><a href="home.html">HOME</a></li>
+       <li>
+         <a href="#">SERVICES</a>
+         <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+         <ul class="htmlCss-sub-menu sub-menu">
+           <li><a href="tata.html">LATEST TECH NEWS</a></li>
+           <li><a href="gadgets.html">GADGET REVIEWS</a></li>
+           <li><a href="meet.html">TECH MEETS AND EVENTS</a></li>
+           
+         </ul>
+       </li>
+       <li>
+         <a href="#">SECTORS</a>
+         <i class='bx bxs-chevron-down js-arrow arrow '></i>
+         <ul class="js-sub-menu sub-menu">
+           <li><a href="agricultureMeet.html">AGRICULTURE</a></li>
+           <li><a href="education.html">EDUCATIONAL</a></li>
+           <li><a href="construction.html">CONSTRUCTION</a></li>
+           <li><a href="health.html">HEALTH</a></li>
+         </ul>
+       </li>
+       <li><a href="contactUs.html">ABOUT US</a></li>
+       <li><a href="loginPage.html">LOGIN</a></li>
+     </ul>
+   </div>
+   <div class="search-box">
+     <i class='bx bx-search'></i>
+     
+     <div class="input-box">
+       <input type="text" placeholder="Search...">
+       <i class='bx bx-microphone' id='vsi' onclick="voiceinput()"></i>
+       <div class="Ellipse1" style="width: 35px; height: 35px;margin-top: 10px;margin-left: 304px;    background: #E41D1D;border-radius: 50%;display: none; animation: soundWave 1s infinite;
+       opacity: 0;"></div>
+     </div>
+   </div>
+ </div>
+</nav>
+  
+  <div class="container" id="top">
+      <h1>
+          GADGET REVIEWS:
+      </h1>
+  </div>
+  
+    <div class="container" id="shoe">
+      <h2>1.AI POWERED SHOES</h2>
+    </div>
+    <div class="container box" >
+      <div class="container img1">
+         <img src="shoe1.jpeg" style="width:100%;">
+      </div>
+      <div class="container ">
+         <p>
+             When it comes to commuting, your car, bike, or scooter may seem perfectly fine. However, what happens when you're asked to quickly run to a shop just a kilometre away to grab a packet of snacks?This can be a daunting task, as reversing your car from the garage and driving for such a short distance seems unnecessary.
+         </p>
+         <p class="p1">
+             Luckily, a solution to this dilemma has emerged in the form of <strong>AI-powered electric shoes.</strong> Shift Robotics, a tech company, has introduced a revolutionary device called <strong>"Moonwalkers."</strong>
+         </p>
+         <p class="p2">These footwear products are designed to move at your pace while walking and provide acceleration when you need to speed up. They function like sandals that you simply slip on, tie, and roll away!
+         </p>
+     </div>
+ </div>
+ <div class="container">
+     <p class="s1">
+             Luckily, a solution to this dilemma has emerged in the form of <strong>AI-powered electric shoes.</strong> Shift Robotics, a tech company, has introduced a revolutionary device called <strong>"Moonwalkers."</strong> 
+     </p>
+     <p class="s2">
+             These footwear products are designed to move at your pace while walking and provide acceleration when you need to speed up. They function like sandals that you simply slip on, tie, and roll away!
+         </p>
+         <p class="s3">At a time when the world is seeking ways to do more with less, the advent of AI-powered electric shoes seems like a step in the right direction. Not only are they set to make walking and running more efficient, but they also <strong>bring a new dimension to the way we view productivity.</strong></p>
+         <p>The AI integration extends beyond fit and comfort, as the shoe offers real-time coaching and performance analysis. It tracks key metrics such as step count, cadence, and stride length, providing actionable insights to enhance the wearer's performance and gait.</p>
+         <p>The shoe's AI-driven cushioning system dynamically adjusts the level of support and impact absorption based on the wearer's activity and terrain. Whether walking, running, or engaging in sports, the shoe delivers an optimal level of comfort, reducing fatigue and minimizing the risk of injuries.</p>
+     </div>
+      <div class="container img2">
+          <img src="shoe2.jpeg" style="width: 95%;" class="imgh">
+      </div>
+      <div class="container">
+         <p class="p3">At a time when the world is seeking ways to do more with less, the advent of AI-powered electric shoes seems like a step in the right direction. Not only are they set to make walking and running more efficient, but they also <strong>bring a new dimension to the way we view productivity.</strong></p>
+       <p>We are moving from an era of mental and digital productivity tools to one where our physical world is becoming increasingly interwoven with the fabric of AI.<a href="https://www.kickstarter.com/projects/shiftmoonwalkers/moonwalkers-the-worlds-fastest-shoes"> MoonWalkers</a></p>
+      <p>This innovative technology utilizes AI to track your movements, ensuring that the shoes' wheels match your walking pace seamlessly. You no longer need to worry about slipping since the shoes control the wheels during walking. Moreover, the shoes adapt to your gait and walking style, preventing slips while climbing stairs, navigating rugged roads, or descending slippery slopes.
+      </p></div>
+      
+      
+    <div class="container" id="emo">
+      <h2 style="margin-top:2.5rem;">2.EMO Companion </h2><p></p>
+  </div>
+  </div>  
+  <div class="container box">
+    <div class="container img1">
+        <img src="emo1.jpeg" style="width:100%;">
+    </div>
+    <div class="container">
+        <p>The Emo Robot Companion is an <strong>innovative and emotionally intelligent robot</strong> designed to provide companionship and support to users. With its advanced artificial intelligence and emotional understanding, it aims to create a unique bond with its owners, making it more than just a machine.</p>
+     <p class="p1">The Emo Robot Companion boasts a <strong>sleek and modern design</strong> that is aesthetically pleasing. Its compact size and lightweight construction allow it to fit seamlessly into any living space. The robot's build quality is top-notch, featuring durable materials that ensure longevity and reliability.</p></div></div>
+    <div class="container"><p class="s1"></p><p><strong>Emotional Intelligence and Interaction:</strong>
+What sets the Emo Robot Companion apart is its emotional intelligence. Equipped with cutting-edge AI algorithms and facial recognition technology, it can perceive and respond to users' emotions. The robot can analyze facial expressions and voice tones, adapting its responses to provide appropriate emotional support. Its ability to empathize and offer companionship helps users feel understood and cared for.</p>
+<p>The Emo Robot Companion <strong>excels in providing companionship, particularly for individuals</strong> who may feel isolated or lonely. It engages users in conversations, shares stories, and even plays games to keep them entertained. Its dynamic personality evolves over time based on interactions, making every experience unique. |<a href="https://living.ai/emo/"> Emo</a></p></div>
+    <div class="container img3">
+        <img src="emo2.jpeg" style="width:95%;" class="imgh">
+    </div>
+    <div class="container">
+        <p>Beyond emotional support, the Emo Robot Companion is a helpful assistant. It can manage tasks like setting reminders, controlling smart home devices, and <strong>providing useful information.</strong> The robot's integration with various apps and services enhances its functionality and utility.</p>
+<p>Given the intimate nature of its interactions,<strong>privacy and security are paramount.</strong> The Emo Robot Companion is equipped with robust privacy measures, such as local data processing and encryption. User data is safeguarded, ensuring that confidential information remains protected.</p>
+<p>
+The Emo Robot Companion is a remarkable feat of technology that brings emotional intelligence and companionship into the realm of robotics. With its sophisticated AI, captivating personality, and practical assistance, it has the potential to become a valued member of households worldwide. However, as with any technology, it should be seen as a <strong>complementary tool for enhancing emotional well-being</strong>, rather than a complete replacement for genuine human connections</p>
+  </div>
+  <div class="container" id="psvr">
+      <h2 style="margin-top:2.5rempx;">3.SONY PSVR 2</h2>
+  </div>
+  <div class="container box">
+    <div class="container img1">
+        <img src="psvr1.jpeg" style="width:100%;">
+    </div>
+    <div class="container">
+        <p>Sony's first virtual reality headset, the 2016 PlayStation VR, wasn’t exactly state-of-the-art. Engineers had to retrofit the PlayStation 4 with a converter box to send its graphics to a 1080p smartphone panel,topped with magnifying lenses, to create a fragile illusion of VR. Most games expected you to sit down with a traditional gamepad.But You can enjoy the VR experience for some games with new VR pad also.
+        </p>
+        <p class="s3">If you wanted to reach out and touch, you had to shell out extra for a pair of last-gen PlayStation Move wands — ones that were already six years old when the headset first came out and barely did the job.
+     <strong>Sony designed the entire PS5 with this headset in mind</strong> — you plug it right into the front with a single USB-C cord.</p>
+    </div>
+  </div><div class="container">
+  <p class="p3">
+      If you wanted to reach out and touch, you had to shell out extra for a pair of last-gen PlayStation Move wands — ones that were already six years old when the headset first came out and barely did the job.
+     <strong>Sony designed the entire PS5 with this headset in mind</strong> — you plug it right into the front with a single USB-C cord.</p><p>Then, you can walk around an entire room while its built-in cameras measure the real-time position of your head, controller-wielding hands, and eyes so it can adjust a 4K picture to match. The bundled controllers have the same fine haptic motors and motorized resistive triggers as the PS5’s DualSense gamepad, too, and there’s a face-rumbling motor in the headset itself. Touch is no longer an afterthought. |<a href="https://www.playstation.com/en-in/ps-vr/"> Sony PSVR</a>
+  </p></div>
+  <div class="container img4">
+        <img src="psvr2.jpeg" style="width:95%;" class="imgh">
+    </div>
+<div class="container">    <p>
+        It’s the first consumer headset to offer eye tracking and the first to arguably offer PC-quality VR without a PC. We like what we see. By we, I mean three of us: the PSVR 2 is a big enough launch in the worlds of gaming and VR that we assigned Sean Hollister, Adi Robertson, and Tom Warren to test it.
+
+But we also agree there’s a big, familiar question mark hanging over the PSVR 2. Will it have the games?  </p>
+<p>
+Before we get into everything we love about the PlayStation VR2 — and our fair share of annoyances — let’s get one thing out of the way. 
+
+When it comes to VR, <strong>the PSVR 2 only plays PSVR 2 games. </strong>
+
+It’s not compatible with previous PSVR titles, and you can’t just plug it into a Windows PC and use it with SteamVR or Oculus games, like you can with a $400 Meta Quest 2. Sony could have worked with Valve or Meta to provide additional libraries of content; they’ve been welcoming in the past. Instead, Sony chose to build a new ecosystem from scratch. 
+</p> <p>
+That puts all the pressure on Sony to deliver a lineup of original games that justify the $549 price tag. But we’re not quite seeing it yet — partly because the overwhelming majority of <strong>Sony’s launch lineup are ports from other VR headsets</strong> and partly because Sony didn’t include some of its most intriguing launch games with our review units. 
+    </p></div>
+  
+
+    
+ <script src="nav.js">
+    
+     
+ </script>
+ </body>
+</html>

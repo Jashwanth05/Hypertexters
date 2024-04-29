@@ -1,0 +1,92 @@
+
+
+.container {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 40px;
+    height: 300px;
+    box-shadow: 10px 10px 5px rgb(0, 7, 9);
+    /* text-shadow: 10px 10px 4px rgb(0, 7, 9); */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.imm{
+    position: absolute;
+    height: 100vh;
+    width: 100%;    
+    z-index: -1; 
+  }
+.sub{
+    position: relative;
+    top: 70px;
+    box-shadow: 10px 10px 5px rgb(0, 7, 9);
+}
+button{
+    border-radius: 10px;
+    padding: 8px 140px 10px 130px;
+}
+.pass{
+    position: relative;
+    top: 10px;
+}
+.head{
+    position: relative;
+    bottom: 20px;
+    font-size: 25px;
+    color: aliceblue;
+    margin-bottom: 25px;
+    text-shadow: 10px 10px 5px rgb(41, 172, 208);
+}
+.pass{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    text-shadow: 10px 10px 5px rgb(41, 172, 208);
+}
+.user{
+    display: flex;
+    color: aliceblue;
+    flex-direction: column;
+    margin-bottom: 25px;
+    text-shadow: 10px 10px 5px rgb(41, 172, 208);
+}
+#username{
+    border-radius: 2px;
+    box-shadow: 10px 10px 5px rgb(41, 172, 208);
+
+}
+#password{
+    border-radius: 2px;
+    box-shadow: 10px 10px 5px rgb(41, 172, 208);
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(-100%);
+    transition: all 5s;
+}
+.show{
+    filter: blur(0);
+    transform: translateY(0);
+    opacity: 1;
+}

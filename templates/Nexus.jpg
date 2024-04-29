@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)file:///C:/Users/DELL/OneDrive/Desktop/hypertexters/home.html -->
+<html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Nexus</title>
+    <link rel="stylesheet" href="./Nexus_files/home.css">
+    <link href="./Nexus_files/boxicons.min.css" rel="stylesheet">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <nav>
+    <div class="navbar">
+      <i class="bx bx-menu"></i>
+      <div class="logo"><a href="file:///C:/Users/DELL/OneDrive/Desktop/hypertexters/home.html#">NEXUS</a></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">NEXUS</span>
+          <i class="bx bx-x"></i>
+        </div>
+        <ul class="links">
+          <li><a href="file:///C:/Users/DELL/OneDrive/Desktop/hypertexters/home.html#">HOME</a></li>
+          <li>
+            <a href="file:///C:/Users/DELL/OneDrive/Desktop/hypertexters/home.html#">SERVICES</a>
+            <i class="bx bxs-chevron-down htmlcss-arrow arrow  "></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="file:///C:/Users/DELL/OneDrive/Desktop/hypertexters/news.html">LATEST TECH NEWS</a></li>
+              <li><a href="file:///C:/Users/DELL/OneDrive/Desktop/hypertexters/gadgets.html">GADGET REVIEWS</a></li>
+              <li><a href="file:///C:/Users/DELL/OneDrive/Desktop/hypertexters/techmeet.html">TECH MEETS AND EVENTS</a></li>
+              <li>
+                <a href="file:///C:/Users/DELL/OneDrive/Desktop/hypertexters/experttalk.html">EXPERT TALKS</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="file:///C:/Users/DELL/OneDrive/Desktop/hypertexters/home.html#">ARTICLES</a>
+            <i class="bx bxs-chevron-down js-arrow arrow "></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="file:///C:/Users/DELL/OneDrive/Desktop/hypertexters/eraofaiml.html">ERA OF AI ML</a></li>
+              <li><a href="file:///C:/Users/DELL/OneDrive/Desktop/hypertexters/ar.html">AUGMENTED REALITY</a></li>
+              <li><a href="file:///C:/Users/DELL/OneDrive/Desktop/hypertexters/blackchain.html">BLOCKCHAIN</a></li>
+              <li><a href="file:///C:/Users/DELL/OneDrive/Desktop/hypertexters/iot.html">INTERNET OF THINGS</a></li>
+            </ul>
+          </li>
+          <li><a href="file:///C:/Users/DELL/OneDrive/Desktop/hypertexters/aboutus.html">ABOUT US</a></li>
+          <li><a href="file:///C:/Users/DELL/OneDrive/Desktop/hypertexters/login.html">LOGIN</a></li>
+        </ul>
+      </div>
+      <div class="search-box">
+        <i class="bx bx-search"></i>
+        <div class="input-box">
+          <input type="text" placeholder="Search...">
+          <i class="bx bx-microphone" id="vsi"></i>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <script src="file:///C:/Users/DELL/OneDrive/Desktop/JS/home.js"></script>
+
+  
+ 
+
+</body></html>
